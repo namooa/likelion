@@ -1,0 +1,154 @@
+.wrap{
+    width: 1250px;
+    height: 1080px;
+    margin:0 auto;
+}
+header{
+    width: 1250px;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    width: 250px;
+    height: 100%;
+    background-color: #EEEEE9;
+}
+.nav{
+    width: 1000px;
+    height:100%;
+    background-color:#D6CCC2;
+}
+main{
+    display: flex;
+    width: 1250px;
+    height: 880px;
+}
+.canvas{
+    width: 1250px;
+    height: 880px;
+    position: relative;
+}
+.top{
+    width:100%;
+    height:440px;
+    background-color: #F5ECE1;
+}
+.left{
+    width: 625px;
+    height: 440px;
+    background-color: #E4D6CA;
+}
+.right{
+    width: 625px;
+    height: 440px;
+    background-color: #D5BEB1;
+    position: absolute;
+    left:50%;
+    top:50%;
+}
+.cen{
+    width: 500px;
+    height: 500px;
+    background-color: #866756;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+footer{
+    width: 1250px;
+    height: 100px;
+    background-color: #D6CCC2;
+}
+@media (max-width:680px) {
+    .wrap{
+        width: 680px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .nav{
+        width: 680px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .canvas{
+        width: 680px;
+        height: 882px;
+        position: relative;
+    }
+
+    .top, .left, .right{
+        width: 680px;
+        height: 294px;
+    }
+
+    .right{
+        position: static;
+    }
+
+    .cen{
+        width: 235px;
+        height: 235px;
+        left: 0;
+        top:auto;
+        bottom: 0;
+        transform: none;
+    }
+
+    footer{
+        width: 680px;
+        height:100px;
+    }
+}
+@media (max-width:450px) {
+    .wrap{
+        width: 450px;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .nav{
+        width: 680px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .canvas{
+        width: 450px;
+        height: 882px;
+        position: relative;
+    }
+
+    .top, .left, .right{
+        width: 680px;
+        height: 294px;
+    }
+
+    .right{
+        position: static;
+    }
+
+    .cen{
+        width: 200px;
+        height: 200px;
+        left: 250px;
+        top:0;
+        bottom:auto;
+        transform: none;
+    }
+    
+    footer{
+        width: 680px;
+        height:100px;
+    }
+}

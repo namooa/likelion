@@ -1,0 +1,124 @@
+.wrap{
+    width:1250px;
+    margin:0 auto;
+}
+header{
+    display:flex;
+}
+.logo{
+    width:200px;
+    height:100px;
+    background-color:#CCCCCC;
+}
+.nav{
+    width:1050px;
+    height:100px;
+    background-color:#3B5A42;
+}
+main{
+    width:1250px;
+    height:880px;
+    background-color:#DCD7CB;
+    position:relative;
+}
+.main_top{
+    width:1250px;
+    height:430px;
+    position:relative;
+}
+.left_top{
+    width:700px;
+    height:190px;
+    background-image:url("./images/layout3-1.png");
+    background-size:cover;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.left_bot {
+    width:700px;
+    height:190px;
+    background-image:url("./images/layout3-2.png");
+    background-size:cover;
+    position:absolute;
+    top:260px;  
+    left:50px;
+}
+
+.right{
+    width:400px;
+    height:400px;
+    background-image:url("./images/layout3-3.png");
+    background-size:cover;
+    position:absolute;
+    top:50px;
+    right:50px;
+}
+
+.main_bot{
+    width:1250px;
+    height:450px;
+    position:relative;
+}
+
+.left1_1{
+    width: 150px;
+    height: 150px;
+    background-color: #A1B189;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+} 
+.left1_2{
+    width:150px;
+    height:150px;
+    background-color:#A1B189;
+    position:absolute;
+    top:50px;
+    left:220px;
+}
+.left1_3{
+    width:150px;
+    height:150px;
+    background-color:#A1B189;
+    position:absolute;
+    top:50px;
+    left:390px;
+}
+.left1_4{
+    width:150px;
+    height:150px;
+    background-color:#A1B189;
+    position:absolute;
+    top:220px;
+    left:50px;
+}
+.left1_5{
+    width:150px;
+    height:150px;
+    background-color:#A1B189;
+    position:absolute;
+    top:220px;
+    left:220px;
+}
+.left1_6{
+    width:150px;
+    height:150px;
+    background-color:#A1B189;
+    position:absolute;
+    top:220px;
+    left:390px;
+}
+.right1{
+    width:615px;
+    height:320px;
+    background-color:#588158;
+    position:absolute;
+    top:50px;
+    right:50px;
+}
+footer{
+    width:100%;
+    height:100px;
+    background-color:#334E41;
+}

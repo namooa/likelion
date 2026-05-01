@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/layout.css">
+</head>
+<body>
+    <header>
+        <div class="logo">NexusFlow</div>
+        <div class="nav-menu">
+            <div class="nav-item">
+                About Us
+                <div class="dropdown">
+                    <div class="dropdown-item">Vision</div>
+                    <div class="dropdown-item">History</div>
+                    <div class="dropdown-item">Contact Us</div>
+                </div>
+            </div>
+            <div class="nav-item">
+                Solutions
+                <div class="dropdown">
+                    <div class="dropdown-item">Services</div>
+                    <div class="dropdown-item">Products</div>
+                    <div class="dropdown-item">Business</div>
+                </div>
+            </div>
+            <div class="nav-item">
+                News
+                <div class="dropdown">
+                    <div class="dropdown-item">Release</div>
+                    <div class="dropdown-item">Notice</div>
+                    <div class="dropdown-item">Media</div>
+                </div>
+            </div>
+            <div class="nav-item">
+                Careers
+                <div class="dropdown">
+                    <div class="dropdown-item">Core Value</div>
+                    <div class="dropdown-item">Join Us</div>
+                    <div class="dropdown-item">Life at</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-slider">
+                <div class="hero-slide active"></div>
+                <div class="hero-slide"></div>
+                <div class="hero-slide"></div>
+            </div>
+            <div class="hero-text">
+                <p>Leading the Future with Innovation</p>
+                <h1>Beyond the Best, Towards the Next</h1>
+            </div>
+        </section>
+
+        <section class="notice-section">
+            <div class="notice-tabs">
+                <button class="tab-button active" type="button" data-tab="notice">Notice</button>
+                <button class="tab-button" type="button" data-tab="press">Press Release</button>
+                <span class="tab-button tab-label">Media Assets</span>
+            </div>
+
+            <div class="notice-list active" data-content="notice">
+                <button class="notice-row" type="button">
+                    <span>[Update] Revision of Terms and Conditions for 2026</span>
+                    <time datetime="2026-02-14">2026.02.14</time>
+                </button>
+                <button class="notice-row popup-open" type="button">
+                    <span>[Launch] Introducing NexusFlow Enterprise: Built for Scale</span>
+                    <time datetime="2026-02-03">2026.02.03</time>
+                </button>
+                <button class="notice-row" type="button">
+                    <span>[Career] We’re Hiring: Join Our Global Tech &amp; Design Team</span>
+                    <time datetime="2026-02-05">2026.02.05</time>
+                </button>
+                <button class="notice-row" type="button">
+                    <span>[Insights] 2026 Digital Workflow &amp; Productivity Trend Report</span>
+                    <time datetime="2026-02-04">2026.02.04</time>
+                </button>
+                <button class="notice-row" type="button">
+                    <span>[Notice] NexusFlow Global Headquarters Relocation Announcement</span>
+                    <time datetime="2026-02-03">2026.02.03</time>
+                </button>
+                <button class="notice-row" type="button">
+                    <span>[Maintenance] Scheduled System Optimization &amp; Server Maintenance</span>
+                    <time datetime="2026-01-31">2026.01.31</time>
+                </button>
+            </div>
+
+            <div class="notice-list press-release-panel" data-content="press">
+                <h2>
+                    NexusFlow Announces Strategic Partnership<br>
+                    with Global Tech Leaders to Define the Future of Work
+                </h2>
+                <p>
+                    NexusFlow, a leading innovator in digital workflow solutions, today announced a landmark strategic partnership with
+                    global technology leaders to accelerate the digital transformation of enterprises worldwide.
+                </p>
+                <p>
+                    Through this collaboration, NexusFlow will integrate its proprietary AI-driven workflow optimization engine with
+                    global cloud infrastructures, providing a seamless and more intuitive work experience for over 10 million professional
+                    users. This partnership focuses on breaking down data silos and creating a "Unified Flow" that allows teams to focus
+                    on high-value creative tasks rather than repetitive administrative work.
+                </p>
+                <p>
+                    "This is not just a technical integration; it’s a commitment to redefining how humans and technology interact in the 
+                    workspace," said the CEO of NexusFlow. "Beyond the Best, Towards the Next — we are moving forward to set the new global 
+                    standard for productivity."
+                </p>
+            </div>
+        </section>
+
+        <section class="company-section">
+            <h2>NexusFlow</h2>
+
+            <div class="company-cards">
+                <article class="company-card mission">
+                    <div>
+                        <h3>Mission</h3>
+                        <p>Innovate human production value<br>with seamless work flow.</p>
+                    </div>
+                </article>
+                <article class="company-card vision">
+                    <div>
+                        <h3>Vision</h3>
+                        <p>Global #1 Digital Workflow Partner.</p>
+                    </div>
+                </article>
+                <article class="company-card values">
+                    <div>
+                        <h3>Values</h3>
+                        <p>Challenges for innovation, data-<br>driven trust, user-centric</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="company-copy">
+                <p>
+                    NexusFlow believes in the value of "connectivity" and "flow".<br>
+                    It brings fragmented work processes together in a complex business environment and<br>
+                    provides the best workflow for all members to reach their potential without being blocked.
+                </p>
+                <p>
+                    Based on our own algorithm and intuitive UX, we have presented the answer to digital transformation<br>
+                    to more than 10,000 companies around the world. With NexusFlow, work is simpler and performance is clearer.<br>
+                    With the best technology, I will take your business to the next step
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>Terms of Service | Privacy Policy | Cookies | Contact Us</footer>
+
+    <div class="modal-overlay" id="noticeModal">
+        <div class="modal">
+            <h2>NexusFlow Enterprise:<br>Built for the Scale of Your Vision</h2>
+            <p>
+                Experience seamless flow even in complex business environments.
+                Enterprise Edition provides powerful management and security solutions
+                designed for efficiency in large organizations.
+            </p>
+            <ul>
+                <li>Customizable Workflow</li>
+                <li>Enterprise-Grade Security</li>
+                <li>Dedicated Support</li>
+                <li>Advanced Analytics</li>
+            </ul>
+            <button class="modal-close modal-ok" type="button">OK</button>
+        </div>
+    </div>
+
+    <script>
+        const navItems = document.querySelectorAll('.nav-item');
+        const navMenu = document.querySelector('.nav-menu');
+        const heroSlides = document.querySelectorAll('.hero-slide');
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const noticeLists = document.querySelectorAll('.notice-list');
+        const popupOpen = document.querySelector('.popup-open');
+        const noticeModal = document.querySelector('#noticeModal');
+        const modalClose = document.querySelector('.modal-close');
+        let currentSlide = 0;
+
+        navItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                const isOpen = item.classList.contains('active');
+
+                navItems.forEach(i => i.classList.remove('active'));
+                navMenu.classList.toggle('active', !isOpen);
+
+                if (!isOpen) item.classList.add('active');
+
+                e.stopPropagation();
+            });
+        });
+
+        navMenu.addEventListener('click', e => {
+            e.stopPropagation();
+        });
+
+        document.addEventListener('click', () => {
+            navItems.forEach(item => item.classList.remove('active'));
+            navMenu.classList.remove('active');
+        });
+
+        setInterval(() => {
+            heroSlides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % heroSlides.length;
+            heroSlides[currentSlide].classList.add('active');
+        }, 3500);
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const selectedTab = button.dataset.tab;
+
+                tabButtons.forEach(tabButton => tabButton.classList.remove('active'));
+                button.classList.add('active');
+
+                noticeLists.forEach(list => {
+                    list.classList.toggle('active', list.dataset.content === selectedTab);
+                });
+            });
+        });
+
+        popupOpen.addEventListener('click', () => {
+            noticeModal.classList.add('active');
+        });
+
+        modalClose.addEventListener('click', () => {
+            noticeModal.classList.remove('active');
+        });
+
+        noticeModal.addEventListener('click', e => {
+            if (e.target === noticeModal) {
+                noticeModal.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
